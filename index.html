@@ -7,7 +7,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Abel|Bangers" rel="stylesheet" type="text/css">
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
         <style type="text/css">
             html, body {
@@ -20,19 +20,18 @@
                 position: fixed;
                 top: 0; left: 0; right: 0;
                 z-index: -1;
-                background: url(background.png) no-repeat center center;
+                background: url(images/background.png) no-repeat center center;
                 background-size: cover;
                 height: 350px;
-            }
-            h1 {
-                margin: 0;
-                font-size: 5em;
                 text-align: center;
-                margin-top: 75px;
+            }
+            .game_logo {
+                margin-top: 35px;
             }
             h2 {
                 margin: 0;
-                font-weight: 800;
+                font-family: "Bangers", Helvetica, sans-serif;
+                font-size: 1.5em;
                 text-align: center;
                 text-transform: uppercase;
             }
@@ -49,7 +48,7 @@
         <![endif]-->
 
         <div class="hero">
-            <h1 class="title">SMEW FIGHTERS</h1>
+            <img class="game_logo" src="images/game_logo.png">
             <div class="row">
                 <div class="col-xs-12"><h2>8 locations. 1 duck. 0 survivors.</h2></div>
             </div>
@@ -57,8 +56,8 @@
             <div class="row text-center">
                 <div class="col-xs-12">
                     <a type="button" class="btn btn-default btn-lg" href="https://github.com/sepr-smew/game/releases/download/v1.0.0/desktop-1.0.jar">Download (Desktop)</a>
+                    <a type="button" class="btn btn-default btn-lg" href="https://drive.google.com/file/d/0B53NFQZzeoRlMTU1RThkRjRpS1E/view?usp=sharing">Manual (Read This!)</a>
                     <a type="button" class="btn btn-default btn-lg" href="https://github.com/sepr-smew/game" target="_blank">Source</a>
-                    <a type="button" class="btn btn-default btn-lg" href="https://github.com/sepr-smew/game/tree/master/core/test/sepr/smew/ces/systems" target="_blank">Unit Tests</a>
                 </div>
             </div>
         </div>
@@ -68,7 +67,7 @@
             <div class="media">
                 <div class="media-left">
                     <a href="screenshot.png">
-                        <img class="media-object" src="screenshot.png" height="100" alt="Screenshot">
+                        <img class="media-object" src="images/screenshot.png" height="100" alt="Screenshot">
                     </a>
                 </div>
                 <div class="media-body" style="vertical-align: middle">
@@ -142,7 +141,45 @@
                 <div class="col-md-3">
                     <div class="panel panel-default">
                         <div class="panel-heading">Assessment 3</div>
-                        <div class="panel-body">Watch this space!</div>
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <a href="https://drive.google.com/file/d/0B_5gEYND4-F4ZFM5dVUtQWNQRUE/view?usp=sharing">Change Report</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="https://drive.google.com/file/d/0B_5gEYND4-F4LVY5NVdzVXNxRnc/view?usp=sharing">Implementation</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="https://drive.google.com/file/d/0B_5gEYND4-F4U1FQMTJueHBFaDg/view?usp=sharing">GUI Report</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="https://drive.google.com/file/d/0B_5gEYND4-F4Rm90LUIxNDNXVWM/view?usp=sharing">Testing Report</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="https://drive.google.com/file/d/0B_5gEYND4-F4SjdtTWJUcndOTlk/view?usp=sharing">Method Selection and Planning</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="https://drive.google.com/file/d/0B_5gEYND4-F4Skc0UXNZVklRWUE/view?usp=sharing">Risk Assessment and Mitigation</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="https://docs.google.com/document/d/1onts-WHYfP76ZXDiiGjpAFehZZbwDEYutEd4GhWll34/edit?usp=sharing">User Manual (Editable Source)</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="https://drive.google.com/file/d/0B_5gEYND4-F4R2dTY2duRG5teGs/view?usp=sharing">Requirements (Mallard)</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="panel panel-default">
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <a href="https://github.com/sepr-smew/mallard/tree/master/core/test/com/superduckinvaders/game">Unit Tests (Source)</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="https://docs.google.com/spreadsheets/d/1nQSEIE9ZNLqVrscaI6OQb_h1gb_05XGFxdjt4-fLh0E/pubhtml">Expanded Unit Tests</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="https://drive.google.com/file/d/0B_5gEYND4-F4aTU1dTN3VDZwRnc/view?usp=sharing">Expanded System Tests</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
 
