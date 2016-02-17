@@ -1,0 +1,9 @@
+com.superduckinvaders.game
+com.superduckinvaders.game.ai
+com.superduckinvaders.game.assets
+com.superduckinvaders.game.entity
+com.superduckinvaders.game.entity.item
+com.superduckinvaders.game.entity.mob
+com.superduckinvaders.game.objective
+com.superduckinvaders.game.screen
+com.superduckinvaders.game.util
